@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+    <rect width="200" height="200" rx="8" fill="#171717"/>
+    <polygon points="60,95 100,55 140,95 125,95 100,70 75,95" fill="#B79A63"/>
+    <polygon points="60,115 100,75 140,115 125,115 100,90 75,115" fill="#F5F0E6"/>
+    <text x="100" y="162" font-family="Impact, sans-serif" font-size="18" fill="#F5F0E6" text-anchor="middle" letter-spacing="2">REUSCH</text>
+  </svg>

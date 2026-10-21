@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="100%" height="100%">
+  
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#2a2e39"/>
+      <stop offset="55%" stop-color="#14161d"/>
+      <stop offset="100%" stop-color="#0a0b0e"/>
+    </radialGradient>
+    <radialGradient id="podiumGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3d4352" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#121418" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f7e09e"/>
+      <stop offset="35%" stop-color="#d4af37"/>
+      <stop offset="70%" stop-color="#aa820a"/>
+      <stop offset="100%" stop-color="#e8c867"/>
+    </linearGradient>
+    <linearGradient id="silverGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="50%" stop-color="#a8b0ba"/>
+      <stop offset="100%" stop-color="#606670"/>
+    </linearGradient>
+    <linearGradient id="brassGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffe8a3"/>
+      <stop offset="40%" stop-color="#c99738"/>
+      <stop offset="80%" stop-color="#8a5e12"/>
+      <stop offset="100%" stop-color="#dfb758"/>
+    </linearGradient>
+    <pattern id="carbonPattern" width="12" height="12" patternUnits="userSpaceOnUse">
+      <rect width="12" height="12" fill="#18181a"/>
+      <rect x="0" y="0" width="6" height="6" fill="#28292e"/>
+      <rect x="6" y="6" width="6" height="6" fill="#28292e"/>
+      <line x1="0" y1="0" x2="12" y2="12" stroke="#383940" stroke-width="0.7" opacity="0.4"/>
+      <line x1="12" y1="0" x2="0" y2="12" stroke="#383940" stroke-width="0.7" opacity="0.4"/>
+    </pattern>
+    <pattern id="fabricMesh" width="8" height="8" patternUnits="userSpaceOnUse">
+      <circle cx="4" cy="4" r="1.5" fill="#000000" opacity="0.12"/>
+    </pattern>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#000000" flood-opacity="0.75"/>
+    </filter>
+    <filter id="heavyShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="30" stdDeviation="35" flood-color="#000000" flood-opacity="0.85"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="800" fill="url(#bgGlow)"/>
+  <!-- Luxury Podium Base -->
+  <ellipse cx="400" cy="710" rx="320" ry="45" fill="url(#podiumGlow)"/>
+  <ellipse cx="400" cy="710" rx="260" ry="25" fill="#000000" opacity="0.6"/>
+  
+    <g filter="url(#heavyShadow)" transform="translate(400, 390)">
+      <!-- Aqua Blue All-Weather Grip Gloves -->
+      <path d="M-90,-50 C-105,-150 -75,-210 -50,-210 C-35,-210 -35,-150 -30,-110 C-25,-170 -5,-225 15,-225 C30,-225 30,-160 32,-110 C40,-170 60,-215 75,-215 C90,-215 90,-150 82,-100 C95,-140 110,-170 125,-165 C135,-160 135,-110 120,-60 C110,-20 105,30 100,80 L-70,80 C-85,50 -100,10 -90,-50 Z" fill="#0284c7" stroke="#38bdf8" stroke-width="2"/>
+      <!-- Hydro latex palm drops -->
+      <circle cx="-10" cy="-60" r="12" fill="#38bdf8" opacity="0.6"/>
+      <circle cx="25" cy="-40" r="8" fill="#38bdf8" opacity="0.6"/>
+      <circle cx="5" cy="10" r="15" fill="#38bdf8" opacity="0.6"/>
+      <!-- Bandage -->
+      <rect x="-75" y="80" width="180" height="90" rx="6" fill="#0c4a6e" stroke="#38bdf8" stroke-width="2"/>
+      <text x="15" y="125" font-family="Impact, sans-serif" font-size="26" fill="#f8fafc" text-anchor="middle" letter-spacing="2">AQUA-PLUS 4mm</text>
+      <text x="15" y="150" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#38bdf8" text-anchor="middle" letter-spacing="1">WET WEATHER SUPREMACY</text>
+    </g>
+  
+</svg>

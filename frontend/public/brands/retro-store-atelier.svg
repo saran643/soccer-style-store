@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+    <rect width="200" height="200" rx="8" fill="#171717"/>
+    <circle cx="100" cy="100" r="82" fill="none" stroke="#B79A63" stroke-width="2.5" stroke-dasharray="4,4"/>
+    <circle cx="100" cy="100" r="74" fill="none" stroke="#B79A63" stroke-width="1.5"/>
+    <path d="M100 48 L104 60 L116 60 L106 68 L110 80 L100 72 L90 80 L94 68 L84 60 L96 60 Z" fill="#B79A63"/>
+    <text x="100" y="112" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="#F5F0E6" text-anchor="middle" letter-spacing="2">RETRO</text>
+    <text x="100" y="132" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#B79A63" text-anchor="middle" letter-spacing="4">ATELIER</text>
+    <text x="100" y="148" font-family="Arial, sans-serif" font-size="8" fill="#A8A095" text-anchor="middle" letter-spacing="2">EST. 1982</text>
+  </svg>

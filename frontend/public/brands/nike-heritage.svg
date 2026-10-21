@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+    <rect width="200" height="200" rx="8" fill="#171717"/>
+    <path d="M42 108 C65 125 90 128 115 110 C145 88 162 62 165 52 C158 75 122 135 78 135 C52 135 38 118 42 108 Z" fill="#721C32"/>
+    <text x="100" y="168" font-family="Impact, sans-serif" font-size="20" font-style="italic" fill="#F5F0E6" text-anchor="middle" letter-spacing="3">NIKE</text>
+  </svg>

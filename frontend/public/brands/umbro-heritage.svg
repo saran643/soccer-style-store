@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+    <rect width="200" height="200" rx="8" fill="#171717"/>
+    <polygon points="100,50 155,100 100,150 45,100" fill="none" stroke="#F5F0E6" stroke-width="7"/>
+    <polygon points="100,68 135,100 100,132 65,100" fill="none" stroke="#721C32" stroke-width="5"/>
+    <text x="100" y="178" font-family="Impact, sans-serif" font-size="18" fill="#F5F0E6" text-anchor="middle" letter-spacing="3">UMBRO</text>
+  </svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+    <rect width="200" height="200" rx="8" fill="#171717"/>
+    <polygon points="100,52 142,76 142,124 100,148 58,124 58,76" fill="none" stroke="#B79A63" stroke-width="4"/>
+    <circle cx="100" cy="85" r="5" fill="#F5F0E6"/>
+    <circle cx="85" cy="100" r="5" fill="#F5F0E6"/>
+    <circle cx="115" cy="100" r="5" fill="#F5F0E6"/>
+    <circle cx="100" cy="115" r="5" fill="#F5F0E6"/>
+    <text x="100" y="172" font-family="Arial, sans-serif" font-size="12" font-weight="900" fill="#F5F0E6" text-anchor="middle" letter-spacing="2">GRIPMASTER</text>
+  </svg>

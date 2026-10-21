@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="100%" height="100%">
+  
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#2a2e39"/>
+      <stop offset="55%" stop-color="#14161d"/>
+      <stop offset="100%" stop-color="#0a0b0e"/>
+    </radialGradient>
+    <radialGradient id="podiumGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3d4352" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#121418" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f7e09e"/>
+      <stop offset="35%" stop-color="#d4af37"/>
+      <stop offset="70%" stop-color="#aa820a"/>
+      <stop offset="100%" stop-color="#e8c867"/>
+    </linearGradient>
+    <linearGradient id="silverGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="50%" stop-color="#a8b0ba"/>
+      <stop offset="100%" stop-color="#606670"/>
+    </linearGradient>
+    <linearGradient id="brassGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffe8a3"/>
+      <stop offset="40%" stop-color="#c99738"/>
+      <stop offset="80%" stop-color="#8a5e12"/>
+      <stop offset="100%" stop-color="#dfb758"/>
+    </linearGradient>
+    <pattern id="carbonPattern" width="12" height="12" patternUnits="userSpaceOnUse">
+      <rect width="12" height="12" fill="#18181a"/>
+      <rect x="0" y="0" width="6" height="6" fill="#28292e"/>
+      <rect x="6" y="6" width="6" height="6" fill="#28292e"/>
+      <line x1="0" y1="0" x2="12" y2="12" stroke="#383940" stroke-width="0.7" opacity="0.4"/>
+      <line x1="12" y1="0" x2="0" y2="12" stroke="#383940" stroke-width="0.7" opacity="0.4"/>
+    </pattern>
+    <pattern id="fabricMesh" width="8" height="8" patternUnits="userSpaceOnUse">
+      <circle cx="4" cy="4" r="1.5" fill="#000000" opacity="0.12"/>
+    </pattern>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#000000" flood-opacity="0.75"/>
+    </filter>
+    <filter id="heavyShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="30" stdDeviation="35" flood-color="#000000" flood-opacity="0.85"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="800" fill="url(#bgGlow)"/>
+  <!-- Luxury Podium Base -->
+  <ellipse cx="400" cy="710" rx="320" ry="45" fill="url(#podiumGlow)"/>
+  <ellipse cx="400" cy="710" rx="260" ry="25" fill="#000000" opacity="0.6"/>
+  
+    <g filter="url(#heavyShadow)" transform="translate(400, 390)">
+      <!-- Pure K-Leather Deep Black Silhouette -->
+      <path d="M-225,110 C-240,60 -210,10 -150,-10 C-90,-25 -35,-45 45,-35 C115,-25 185,10 225,70 C245,100 220,125 180,130 C100,140 -120,142 -205,135 Z" fill="#0d0d0f"/>
+      
+      <!-- Mizuno Runbird White Wave Logo -->
+      <g transform="translate(10, 35) scale(0.9)">
+        <path d="M-60,30 C-20,35 30,25 70,-15 C100,-45 125,-60 140,-70 C120,-50 75,-10 30,10 C-10,30 -40,30 -60,30 Z" fill="#f8fafc"/>
+        <path d="M-10,10 C15,0 45,-20 70,-45 C50,-25 20,-5 -10,10 Z" fill="#dc2626"/>
+      </g>
+
+      <!-- Handcrafted Wave-Stitch Vamp Pattern -->
+      <g stroke="#4b5563" stroke-width="1.8" fill="none" opacity="0.75">
+        <path d="M50,15 C90,40 140,40 180,80"/>
+        <path d="M70,-5 C110,20 160,20 200,60"/>
+        <path d="M90,-25 C130,0 180,0 220,40"/>
+      </g>
+
+      <!-- Graded Nylon Soleplate with 13 Molded Round Studs -->
+      <path d="M-210,135 L190,135 L180,148 L-200,148 Z" fill="#ffffff"/>
+      <g fill="#ffffff" stroke="#111111" stroke-width="2">
+        <circle cx="-175" cy="165" r="9"/>
+        <circle cx="-135" cy="165" r="9"/>
+        <circle cx="35" cy="165" r="9"/>
+        <circle cx="75" cy="165" r="9"/>
+        <circle cx="115" cy="165" r="9"/>
+        <circle cx="155" cy="165" r="9"/>
+      </g>
+
+      <!-- Red Tongue Badge with Mizuno Gold Lettering -->
+      <path d="M-10,-35 C-25,-75 25,-85 55,-45 Z" fill="#dc2626"/>
+      <text x="22" y="-58" font-family="'Times New Roman', serif" font-size="12" font-weight="bold" fill="url(#goldGrad)" text-anchor="middle">Mizuno</text>
+      <text x="22" y="-46" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#ffffff" text-anchor="middle">MORELIA</text>
+    </g>
+  
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+    <rect width="200" height="200" rx="8" fill="#171717"/>
+    <g transform="translate(100, 85)">
+      <polygon points="-25,-30 25,-30 45,0 -5,0" fill="#721C32"/>
+      <polygon points="-45,0 5,0 25,30 -25,30" fill="#721C32"/>
+    </g>
+    <text x="100" y="165" font-family="Arial, sans-serif" font-size="18" font-weight="900" font-style="italic" fill="#F5F0E6" text-anchor="middle" letter-spacing="2">lotto</text>
+  </svg>
